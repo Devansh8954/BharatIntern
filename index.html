@@ -25,27 +25,18 @@
 
     <section class="home">
         <div class="home-content">
-            <h1>Hi! I'm Devansh Tyagi</h1>
+            <h1>Hi! I am <span>Devansh Tyagi</span></h1>
+            <h3>And I am a </h3>
             <div class="change-text">
-                <h3>And I'm</h3>
-                <h3>
-                    <span class="word">Programmer</span>
-                    <span class="word">Coder</span>
-                    <span class="word">Web Developer</span>
-                </h3>
+                    <span class="word"></span>
+                    <span class="word"></span>
+                    <span class="word"></span>
             </div>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi temporibus libero laborum omnis consequatur
-                accusamus repellat doloremque assumenda.</p>
 
             <div class="info-box">
                 <div class="email-info">
                     <h5>Email :</h5>
                     <span>devansh8954@gmail.com</span>
-                </div>
-                <div class="behance-info">
-                    <h5>Behance :</h5>
-                    <span>behance.net/devansh</span>
                 </div>
             </div>
 
@@ -241,14 +232,14 @@
         </div>
         <div class="container">
             <div class="fillter-buttons">
-                <button class="btn">All</button>
-                <button class="btn">Product</button>
-                <button class="btn">Interacting</button>
-                <button class="btn">Web App</button>
+                <button class="btn" data-filter="all">All</button>
+                <button class="btn" data-filter=".product">Product</button>
+                <button class="btn" data-filter=".interacting">Interacting</button>
+                <button class="btn" data-filter=".web">Web App</button>
             </div>
 
             <div class="portfolio-gallery">
-                <div class="port-box">
+                <div class="port-box mix product">
                     <div class="port-image">
                         <img src="img/1.jpg" alt="">
                     </div>
@@ -261,7 +252,7 @@
                     
                 </div>
 
-                <div class="port-box">
+                <div class="port-box mix product">
                     <div class="port-image">
                         <img src="img/2.jpg" alt="">
                     </div>
@@ -274,7 +265,7 @@
                     
                 </div>
                 
-                <div class="port-box">
+                <div class="port-box mix interacting">
                     <div class="port-image">
                         <img src="img/3.jpg" alt="">
                     </div>
@@ -287,7 +278,7 @@
                     
                 </div>
 
-                <div class="port-box">
+                <div class="port-box mix interacting">
                     <div class="port-image">
                         <img src="img/4.jpg" alt="">
                     </div>
@@ -300,7 +291,7 @@
                     
                 </div>
 
-                <div class="port-box">
+                <div class="port-box mix web">
                     <div class="port-image">
                         <img src="img/5.jpg" alt="">
                     </div>
@@ -310,10 +301,9 @@
                         quo praesentium animi neque, ut saepe ipsa?</p>
                         <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
-                    
                 </div>
 
-                <div class="port-box">
+                <div class="port-box mix web">
                     <div class="port-image">
                         <img src="img/6.jpg" alt="">
                     </div>
@@ -323,14 +313,38 @@
                         quo praesentium animi neque, ut saepe ipsa?</p>
                         <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
-                    
                 </div>
             </div>
         </div>
     </section>
 
 
-    <script src="script.js"></script>
+    <!-- Contact section  -->
+    <section class="contact">
+        <div class="main-text">
+            <span>ask me your queries</span>
+            <h2>Contact Me</h2>
+        </div>
+
+        <form action="#">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <input type="text" placeholder="Your Address">
+            <input type="number" placeholder="Your Phone Number">
+            <textarea name="" id="" cols="30" rows="10">Your Message</textarea>
+            <div class="btn-box formBtn">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2023 by Devansh Tyagi || All Right Reserved.</p>
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="home.js"></script>
+    <script src="mixitup.min.js"></script>
 </body>
 
 </html>
