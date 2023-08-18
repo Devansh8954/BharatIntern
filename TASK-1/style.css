@@ -583,7 +583,6 @@ section{
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50% ,-50%);
 }
 
 .box .text small{
@@ -597,8 +596,8 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid #fff;
 }
-
 
 
 /* porfolio section  */
@@ -852,7 +851,7 @@ footer a i{
     }
 }
 
-@media (max-width:420px){
+@media (max-width:425px){
     html{
         font-size:80%;
     }
